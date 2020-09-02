@@ -1,0 +1,44 @@
+﻿
+*{
+   padding:0px;
+   margin:0px;
+   box-sizing:border-box;
+}
+.banner{
+    font-size:50px;
+}
+body{
+    background-image:url("background.jpg");
+   background-size:cover;
+   background-repeat:no-repeat;
+  
+}
+.content{
+    color:rgb(0, 255, 144)
+
+}
+.header{
+    color:rgb(255, 106, 0);
+   width:100%;
+   padding:20px;
+   position:fixed;
+;
+
+   transition:0.5s;
+
+
+}
+.header ul li{
+    display: inline block;
+    list-style-type:none;
+    padding:10px 100px;
+    font-size: 24px;
+    cursor:pointer;
+       text-align:center
+
+
+}
+.header ul li:hover{
+    background:rgb(0, 0, 0,0.50);
+}
+
